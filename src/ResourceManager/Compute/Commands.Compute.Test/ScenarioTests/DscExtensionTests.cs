@@ -12,6 +12,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestGetAzureRmVMDscExtension()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-GetAzureRmVMDscExtension");

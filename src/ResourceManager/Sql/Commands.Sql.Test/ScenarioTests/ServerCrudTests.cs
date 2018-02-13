@@ -49,6 +49,7 @@ namespace Microsoft.Azure.Commands.Sql.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestServerRemove()
         {
             RunPowerShellTest("Test-RemoveServer");

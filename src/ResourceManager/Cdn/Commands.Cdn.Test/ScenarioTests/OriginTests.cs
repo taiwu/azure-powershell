@@ -37,6 +37,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestOriginGetSetWithStoppedEndpoint()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-OriginGetSetWithStoppedEndpoint");

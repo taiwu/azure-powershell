@@ -26,6 +26,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualMachineSingleNetworkInterface()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-SingleNetworkInterface");
@@ -33,6 +34,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualMachineMultipleNetworkInterface()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-MultipleNetworkInterface");
@@ -40,6 +42,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestSingleNetworkInterfaceDnsSettings()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-SingleNetworkInterfaceDnsSettings");
@@ -62,6 +65,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestSingleNetworkInterfaceWithAcceleratedNetworking()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-SingleNetworkInterfaceWithAcceleratedNetworking");
@@ -69,6 +73,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVMNicWithAcceleratedNetworkingValidations()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-VMNicWithAcceleratedNetworkingValidations");

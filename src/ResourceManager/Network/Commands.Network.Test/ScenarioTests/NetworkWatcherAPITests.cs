@@ -35,6 +35,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestGetSecurityGroupView()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-GetSecurityGroupView");
@@ -49,6 +50,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVerifyIPFlow()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-VerifyIPFlow");
@@ -56,6 +58,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestPacketCapture()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-PacketCapture");

@@ -28,6 +28,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkSecurityGroupCRUD()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkSecurityGroupCRUD");
@@ -35,6 +36,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkSecurityGroupSecurityRuleCRUD()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkSecurityGroup-SecurityRuleCRUD");
@@ -42,6 +44,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkSecurityGroupMultiValuedRules()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkSecurityGroup-MultiValuedRules");

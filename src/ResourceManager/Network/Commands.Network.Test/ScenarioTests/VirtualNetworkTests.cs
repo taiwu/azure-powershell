@@ -28,6 +28,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualNetworkCRUD()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-VirtualNetworkCRUD");
@@ -35,6 +36,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualNetworkCRUDWithDDoSProtection()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-VirtualNetworkCRUDWithDDoSProtection");
@@ -49,6 +51,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualNetworkPeeringCRUD()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-VirtualNetworkPeeringCRUD");

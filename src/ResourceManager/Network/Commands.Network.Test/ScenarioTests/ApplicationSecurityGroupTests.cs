@@ -30,6 +30,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestApplicationSecurityGroupCRUD()
         {
             NetworkResourcesController.NewInstance.RunPsTest(string.Format("Test-ApplicationSecurityGroupCRUD"));

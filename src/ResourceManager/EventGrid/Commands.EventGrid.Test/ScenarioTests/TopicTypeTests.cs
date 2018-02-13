@@ -30,6 +30,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_TopicTypes()
         {
             EventGridController.NewInstance.RunPsTest("TopicTypeTests_Operations");

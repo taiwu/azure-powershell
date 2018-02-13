@@ -30,6 +30,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestCustomDomainGetRemoveWithRunningEndpoint()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-CustomDomainGetRemoveWithRunningEndpoint");
@@ -37,6 +38,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestCustomDomainGetRemoveWithStoppedEndpoint()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-CustomDomainGetRemoveWithStoppedEndpoint");

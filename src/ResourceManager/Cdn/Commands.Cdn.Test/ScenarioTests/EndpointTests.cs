@@ -30,6 +30,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestEndpointCrudAndAction()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-EndpointCrudAndAction");
@@ -37,6 +38,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestEndpointCrudAndActionWithPiping()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-EndpointCrudAndActionWithPiping");
@@ -44,6 +46,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestEndpointCrudAndActionWithAllProperties()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-EndpointCrudAndActionWithAllProperties");
@@ -51,6 +54,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestEndpointCrudAndActionWithAllPropertiesWithPiping()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-EndpointCrudAndActionWithAllPropertiesWithPiping");
@@ -58,6 +62,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestEndpointPipeline()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-EndpointPipeline");

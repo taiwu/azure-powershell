@@ -31,6 +31,7 @@ namespace Microsoft.Azure.Commands.ContainerRegistry.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestAzureContainerRegistry()
         {
             TestController.NewInstance.RunPowerShellTest("Test-AzureContainerRegistry");

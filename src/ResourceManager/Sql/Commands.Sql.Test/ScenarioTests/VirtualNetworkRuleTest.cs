@@ -37,6 +37,7 @@ namespace Microsoft.Azure.Commands.Sql.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualNetworkRuleCreateAndUpdate()
         {
             RunPowerShellTest("Test-CreateAndUpdateVirtualNetworkRule");
@@ -44,6 +45,7 @@ namespace Microsoft.Azure.Commands.Sql.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualNetworkRuleGet()
         {
             RunPowerShellTest("Test-GetVirtualNetworkRule");

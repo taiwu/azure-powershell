@@ -28,6 +28,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestEmptyRouteTable()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-EmptyRouteTable");
@@ -35,6 +36,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestRouteTableCRUD()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-RouteTableCRUD");
@@ -49,6 +51,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestRouteTableRouteCRUD()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-RouteTableRouteCRUD");
@@ -56,6 +59,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestRouteHopTypeTest()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-RouteHopTypeTest");

@@ -26,6 +26,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestImage()
         {
             ComputeTestController.NewInstance.RunPsTest(@"Test-Image $null");
@@ -33,6 +34,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestImageCapture()
         {
             ComputeTestController.NewInstance.RunPsTest(@"Test-ImageCapture $null");

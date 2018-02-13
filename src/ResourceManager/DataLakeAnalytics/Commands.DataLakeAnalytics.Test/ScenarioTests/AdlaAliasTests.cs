@@ -66,6 +66,7 @@ namespace Microsoft.Azure.Commands.DataLakeAnalytics.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestAdlaCatalog()
         {
             AdlaTestsBase.NewInstance.RunPsTest(false,
@@ -76,6 +77,7 @@ namespace Microsoft.Azure.Commands.DataLakeAnalytics.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestAdlaJob()
         {
             AdlaTestsBase.NewInstance.RunPsTest(false,

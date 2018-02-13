@@ -30,6 +30,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_TopicsCreateGetAndDelete()
         {
             EventGridController.NewInstance.RunPsTest("TopicTests");
@@ -37,6 +38,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_TopicsSet()
         {
             EventGridController.NewInstance.RunPsTest("TopicSetTests");
@@ -44,6 +46,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_TopicsGetKey()
         {
             EventGridController.NewInstance.RunPsTest("TopicGetKeyTests");
@@ -51,6 +54,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_TopicsNewKey()
         {
             EventGridController.NewInstance.RunPsTest("TopicNewKeyTests");

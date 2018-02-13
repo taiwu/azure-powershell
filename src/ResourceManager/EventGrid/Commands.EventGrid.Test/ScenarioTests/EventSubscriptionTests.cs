@@ -30,6 +30,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_EventSubscriptionToCustomTopics()
         {
             EventGridController.NewInstance.RunPsTest("EventSubscriptionTests_CustomTopic");
@@ -37,6 +38,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_EventSubscriptionToCustomTopics2()
         {
             EventGridController.NewInstance.RunPsTest("EventSubscriptionTests_CustomTopic2");
@@ -44,6 +46,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_EventSubscriptionToAzureSubscription()
         {
             EventGridController.NewInstance.RunPsTest("EventSubscriptionTests_Subscription");
@@ -51,6 +54,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_EventSubscriptionToAzureSubscription2()
         {
             EventGridController.NewInstance.RunPsTest("EventSubscriptionTests_Subscription2");
@@ -58,6 +62,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_EventSubscriptionToResourceGroup()
         {
             EventGridController.NewInstance.RunPsTest("EventSubscriptionTests_ResourceGroup");
@@ -65,6 +70,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_EventSubscriptionToResourceGroup2()
         {
             EventGridController.NewInstance.RunPsTest("EventSubscriptionTests_ResourceGroup2");
@@ -72,6 +78,7 @@ namespace Microsoft.Azure.Commands.EventGrid.Tests.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void EventGrid_EventSubscriptionToResourceCRUD()
         {
             EventGridController.NewInstance.RunPsTest("EventSubscriptionTests_Resource");

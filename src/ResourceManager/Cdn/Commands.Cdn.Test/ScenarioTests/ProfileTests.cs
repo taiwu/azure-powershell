@@ -30,6 +30,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestProfileCrud()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-ProfileCrud");
@@ -37,6 +38,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestProfileCrudWithPiping()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-ProfileDeleteAndSsoWithPiping");
@@ -44,6 +46,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestProfilePipeline()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-ProfilePipeline");
@@ -51,6 +54,7 @@ namespace Microsoft.Azure.Commands.Cdn.Test.ScenarioTests.ScenarioTest
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestProfileDeleteWithEndpoints()
         {
             TestController.NewInstance.RunPowerShellTest(_logger, "Test-ProfileDeleteWithEndpoints");

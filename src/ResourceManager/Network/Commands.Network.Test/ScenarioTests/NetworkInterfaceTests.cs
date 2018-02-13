@@ -28,6 +28,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkInterfaceCRUD()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkInterfaceCRUD");
@@ -35,6 +36,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkInterfaceCRUDUsingId()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkInterfaceCRUDUsingId");
@@ -49,6 +51,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkInterfaceNoPublicIpAddress()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkInterfaceNoPublicIpAddress");
@@ -63,6 +66,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkInterfaceIDns()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkInterfaceIDns");
@@ -70,6 +74,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkInterfaceEnableIPForwarding()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkInterfaceEnableIPForwarding");
@@ -77,6 +82,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkInterfaceExpandResource()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkInterfaceExpandResource");
@@ -84,6 +90,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkInterfaceIpv6()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkInterfaceIpv6");
@@ -91,6 +98,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkInterfaceWithIpConfiguration()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkInterfaceWithIpConfiguration");
@@ -98,6 +106,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestNetworkInterfaceWithAcceleratedNetworking()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-NetworkInterfaceWithAcceleratedNetworking");

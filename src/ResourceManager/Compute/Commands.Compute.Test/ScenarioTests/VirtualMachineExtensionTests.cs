@@ -26,6 +26,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualMachineExtension()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-VirtualMachineExtension");
@@ -33,6 +34,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualMachineExtensionUsingHashTable()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-VirtualMachineExtensionUsingHashTable");
@@ -89,6 +91,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualMachineExtensionWithSwitch()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-VirtualMachineExtensionWithSwitch");
@@ -96,6 +99,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualMachineADDomainExtension()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-VirtualMachineADDomainExtension");
@@ -103,6 +107,7 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestVirtualMachineADDomainExtensionDomainJoin()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-VirtualMachineADDomainExtensionDomainJoin");
