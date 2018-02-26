@@ -68,6 +68,13 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
+        public void TestPublicIpAddressCRUDIpTag()
+        {
+            NetworkResourcesController.NewInstance.RunPsTest("Test-PublicIpAddressCRUD-IpTag");
+        }
+
+        [Fact]
+        [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait("Re-record", "ClientRuntime changes")]
         public void TestPublicIpAddressIpVersion()
         {

@@ -12,13 +12,20 @@
 // limitations under the License.
 // ----------------------------------------------------------------------------------
 
+using Microsoft.Azure.ServiceManagemenet.Common.Models;
 using Microsoft.WindowsAzure.Commands.ScenarioTest;
 using Xunit;
+using Xunit.Abstractions;
 
 namespace Commands.Network.Test.ScenarioTests
 {
     public class ExpressRouteCircuitTests : Microsoft.WindowsAzure.Commands.Test.Utilities.Common.RMTestBase
     {
+        public ExpressRouteCircuitTests(ITestOutputHelper output)
+        {
+            XunitTracingInterceptor.AddToContext(new XunitTracingInterceptor(output));
+        }
+
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait("Re-record", "ClientRuntime changes")]
@@ -72,7 +79,5 @@ namespace Commands.Network.Test.ScenarioTests
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-ExpressRouteRouteFilters");
         }
-
-
     }
 }

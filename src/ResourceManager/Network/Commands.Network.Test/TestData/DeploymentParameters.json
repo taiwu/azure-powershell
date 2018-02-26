@@ -1,12 +1,12 @@
 {
 			"rgName": {
-			"value": "ps7876"
+			"value": "ps2831"
 			},
 			"location": {
-			"value": "West Central US"
+			"value": "westcentralus"
 			},
 			"virtualMachineName": {
-			"value": "ps3141"
+			"value": "ps3525"
 			},
 			"virtualMachineSize": {
 			"value": "Standard_DS1_v2"
@@ -15,31 +15,31 @@
 			"value": "netanaytics12"
 			},
 			"storageAccountName": {
-			"value": "ps5673"
+			"value": "ps1144"
 			},
 			"routeTableName": {
-			"value": "ps9919"
+			"value": "ps2655"
 			},
 			"virtualNetworkName": {
-			"value": "ps8136"
+			"value": "ps6845"
 			},
 			"networkInterfaceName": {
-			"value": "ps5282"
+			"value": "ps5909"
 			},
 			"networkSecurityGroupName": {
-			"value": "ps4958"
+			"value": "ps4068"
 			},
 			"adminPassword": {
-			"value": "netanalytics-32ps7876"
+			"value": "netanalytics-32ps2831"
 			},
 			"storageAccountType": {
 			"value": "Premium_LRS"
 			},
 			"diagnosticsStorageAccountName": {
-			"value": "ps1282"
+			"value": "ps2738"
 			},
 			"diagnosticsStorageAccountId": {
-			"value": "Microsoft.Storage/storageAccounts/ps1282"
+			"value": "Microsoft.Storage/storageAccounts/ps2738"
 			},
 			"diagnosticsStorageAccountType": {
 			"value": "Standard_LRS"
@@ -54,7 +54,7 @@
 			"value": "10.17.3.0/24"
 			},
 			"publicIpAddressName": {
-			"value": "ps3141-ip"
+			"value": "ps3525-ip"
 			},
 			"publicIpAddressType": {
 			"value": "Dynamic"
