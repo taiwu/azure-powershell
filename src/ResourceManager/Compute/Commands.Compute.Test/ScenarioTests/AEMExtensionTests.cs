@@ -94,7 +94,6 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait("Re-record", "ClientRuntime changes")]
-        [Fact]
         public void TestAEMExtensionAdvancedLinuxMD_ESeries()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-AEMExtensionAdvancedLinuxMD_E");
@@ -103,7 +102,6 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
         [Trait("Re-record", "ClientRuntime changes")]
-        [Fact]
         public void TestAEMExtensionAdvancedLinuxMD_DSeries()
         {
             ComputeTestController.NewInstance.RunPsTest("Test-AEMExtensionAdvancedLinuxMD_D");
