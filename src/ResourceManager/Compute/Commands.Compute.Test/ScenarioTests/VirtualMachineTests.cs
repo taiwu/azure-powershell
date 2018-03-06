@@ -245,5 +245,12 @@ namespace Microsoft.Azure.Commands.Compute.Test.ScenarioTests
         {
             ComputeTestController.NewInstance.RunPsTest("Test-VirtualMachineIdentityUpdate");
         }
+
+        [Fact]
+        [Trait(Category.AcceptanceType, Category.CheckIn)]
+        public void TestVirtualMachineWriteAcceleratorUpdate()
+        {
+            ComputeTestController.NewInstance.RunPsTest("Test-VirtualMachineWriteAcceleratorUpdate");
+        }
     }
 }
