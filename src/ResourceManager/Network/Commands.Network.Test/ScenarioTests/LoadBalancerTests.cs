@@ -132,7 +132,7 @@ namespace Commands.Network.Test.ScenarioTests
 
         [Fact]
         [Trait(Category.AcceptanceType, Category.CheckIn)]
-        [Trait("Re-record", "ClientRuntime")]
+        [Trait("Re-record", "ClientRuntime changes")]
         public void TestLoadBalancerInboundNatPoolConfigCRUDPublicLB()
         {
             NetworkResourcesController.NewInstance.RunPsTest("Test-LoadBalancerInboundNatPoolConfigCRUD-PublicLB");
